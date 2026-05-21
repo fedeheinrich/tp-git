@@ -1,8 +1,8 @@
 # Creación y Estado del Repositorio
 
-* `git init`: Inicializa un nuevo repositorio Git en una carpeta local.
+- `git init`: Inicializa un nuevo repositorio Git en una carpeta local.
 
-* `git status`: Muestra el estado actual del repositorio indicando en que rama se encuentra actualmente, si esta vinculada a un repositorio remoto y a cual e indica que archivos están modificados, sin seguimiento (*untracked) o en el área de preparación (*staging).
+- `git status`: Muestra el estado actual del repositorio indicando en qué rama se encuentra actualmente, si está vinculada a un repositorio remoto y a cuál e indica qué archivos están modificados, sin seguimiento (*untracked) o en el área de preparación (*staging).
 
 ### 💻 Ejemplos de Uso
 
