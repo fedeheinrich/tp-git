@@ -2,6 +2,8 @@
 
 - `git push origin <rama>`: Envía los commits locales al repositorio remoto.
 
+- `git fetch`: Pregunta y descarga la información sobre si hay cambios nuevos en el repositorio remoto, pero no los fusiona automáticamente con el código local.
+
 - `git pull`: Descarga y fusiona los cambios desde el repositorio remoto al local.
 
   > ⚠️ **Nota conceptual:** Este comando es en realidad la combinación de dos acciones consecutivas: `git fetch` y `git merge`. Al resolver un `git pull`, es muy común que surjan **conflictos de fusión** si otra persona modificó las mismas líneas en el servidor remoto.
