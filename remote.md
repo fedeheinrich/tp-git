@@ -25,7 +25,16 @@ Cuando terminas de registrar tus cambios locales en tu rama independiente y quie
 git push origin <rama>
 ```
 
-### 2. Sincronizar el repositorio local con los cambios del equipo
+### 2. Descargar cambios del repositorio remoto sin fusionar
+
+Para descargar la información sobre los cambios nuevos en el repositorio remoto sin fusionarlos automáticamente con tu código local, usas `git fetch`:
+
+```bash
+# Descargar los cambios desde el repositorio remoto sin fusionar
+git fetch
+```
+
+### 3. Sincronizar el repositorio local con los cambios del equipo
 
 Para bajarte las explicaciones o correcciones que tus compañeros ya subieron al repositorio remoto y fusionarlas directamente en tu rama de trabajo actual, usas `git pull`:
 
@@ -34,7 +43,7 @@ Para bajarte las explicaciones o correcciones que tus compañeros ya subieron al
 git pull
 ```
 
-### 3. Mostrar repositorios remotos
+### 4. Mostrar repositorios remotos
 
 Para ver los repositorios remotos configurados, usas `git remote`:
 
@@ -43,7 +52,7 @@ Para ver los repositorios remotos configurados, usas `git remote`:
 git remote
 ```
 
-### 4. Mostrar repositorios remotos con URL
+### 5. Mostrar repositorios remotos con URL
 
 Para ver los repositorios remotos con sus URLs, usas `git remote -v`:
 
