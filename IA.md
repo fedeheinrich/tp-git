@@ -8,5 +8,6 @@ Utilicé [Gemini](https://gemini.google.com/app) para consultarle cómo estructu
 Utilizó [Gemini](https://gemini.google.com/app) para recordar sintaxis de Markdown. 
 
 ## [@Tincho2319](https://github.com/Tincho2319)
+Utilizó [Gemini](https://github.com/Oviedo-Matias) para consultar sintaxis de Markdown.
 
 ## [@jeremiasclaros](https://github.com/jeremiasclaros)
