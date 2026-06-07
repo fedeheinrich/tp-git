@@ -2,10 +2,12 @@
 
 ## [@fedeheinrich](https://github.com/fedeheinrich)
 
-Utilicé [Gemini](https://gemini.google.com/app) para consultarle cómo dividir el trabajo en equipo y cómo estructurar el contenido de los archivos que me tocó realizar ([status.md](status.md), [remote.md](remote.md), [README.md](README.md) e [IA.md](IA.md)).
+Utilicé [Gemini](https://gemini.google.com/app) para consultarle cómo estructurar el contenido en el repositorio y dividir el trabajo en equipo.
 
 ## [@Oviedo-Matias](https://github.com/Oviedo-Matias)
+Utilizó [Gemini](https://gemini.google.com/app) para recordar sintaxis de Markdown. 
 
 ## [@Tincho2319](https://github.com/Tincho2319)
+Utilizó [Gemini](https://github.com/Oviedo-Matias) para consultar sintaxis de Markdown.
 
 ## [@jeremiasclaros](https://github.com/jeremiasclaros)
