@@ -10,6 +10,10 @@ El área de preparación funciona como una zona intermedia entre los archivos mo
 
 - `git rm --cached <archivo>`: Quita un archivo del área de preparación sin eliminarlo del disco local.
 
+- `git restore <archivo>`: Descarta los cambios realizados en un archivo y lo devuelve a su último estado guardado.
+
+- `git clean -fd`: Elimina archivos y carpetas sin seguimiento del directorio de trabajo.
+
 ## Ejemplos de uso
 
 ### 1. Agregar un archivo en específico para el próximo commit:
@@ -17,7 +21,7 @@ El área de preparación funciona como una zona intermedia entre los archivos mo
 Si modificamos únicamente README.md y queremos incluirlo en el próximo commit: 
 
 ```bash
-`git add README.md`
+git add README.md
 ```
 
 ### 2. Seleccionar cambios específicos de un archivo:
@@ -25,7 +29,7 @@ Si modificamos únicamente README.md y queremos incluirlo en el próximo commit:
 Si un archivo contiene varias modificaciones pero solo queremos incluir algunas en el próximo commit: 
 
 ```bash
-`git add -p archivo.js`
+git add -p archivo.js
 ```
 
 ### 3. Quitar un archivo del área de preparación:
@@ -33,5 +37,5 @@ Si un archivo contiene varias modificaciones pero solo queremos incluir algunas 
 Si agregamos un archivo por error pero queremos conservar sus cambios: 
 
 ```bash
-`git rm --cached archivo.json`
+git rm --cached archivo.json
 ```
