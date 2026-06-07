@@ -1,6 +1,6 @@
 # Crear nuevos commits
 
-- `git commit`: Abre el editor de texto para poder escribir mensajes más extensos para crear un commit con los datos en el staging area.
+- `git commit`: Abre el editor de texto para poder escribir mensajes más extensos para crear un commit con los datos en el [staging area](staging.md).
 - `git commit -m <nombre-del-commit>`: Crea el commit escribiendo el mensaje en el mismo comando con los datos en el staging area.
 - `git commit -a`: Revisa el working tree para encontrar los archivos que hayan sido modificados, agregados o eliminados, realiza el git add y git rm por sí mismo para guardarlos en el staging area y realiza un commit con esos cambios.
 
