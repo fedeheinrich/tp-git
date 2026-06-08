@@ -4,18 +4,23 @@
 - `git merge <branch> -m <mensaje>`: Inserta el contenido de la rama especificada en la rama actual combinándolas y agregando un título manualmente.
 - `git merge --abort`: Aborta el merge en caso de que algo saliera mal, como por ejemplo un conflicto.
 
+## Rebase
+
+- `git rebase <branch>`: Fusiona 2 ramas al igual que merge insertando el contenido de la rama especificada en la actual, pero en lugar de hacer un commit de fusión, rebase reescribe el historial de commits reanudándolos sin registrar la fusión. Permite un historial más limpio pero menos informativo.
+
 ## Conflictos
 
 - Cuando las 2 ramas tienen cambios en el mismo lugar git no sabe cuál cambio guardar y cuál descartar, produciéndose un conflicto.
 - Al usar un editor de texto en el archivo con conflictos, se pueden ver los conflictos para solucionarlos.
 - Los editores de texto con interfaz gráfica permiten elegir automáticamente con cuáles cambios quedarse.
-- Se puede abortar el merge con `git merge --abort`
+- Se puede abortar el merge con `git merge --abort` o `git rebase --abort`
 
 ## Notas:
 
 - El merge es un commit, no darle un título va a causar que el merge se detenga y se le deberá asignar un título a no ser que git se lo asigne automáticamente.
 - Los títulos de los merge no suelen requerir dar mucha información ya que los commits que contienen se encargan de eso.
 - Los merge suelen hacerse haciendo uso del pull request para que otros colaboradores puedan analizarlo y aprobar o solicitar cambios basándose en su análisis.
+- Tanto merge como rebase pueden ser usados cuando se realiza un pull, pueden elegirse en el momento o establecerse en configuración global.
 
 ## Ejemplos de uso:
 
