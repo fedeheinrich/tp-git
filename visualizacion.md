@@ -10,9 +10,9 @@ Los comandos de visualización nos permiten consultar información del repositor
 
 - `git log -n`: Limita la cantidad de commits que se muestran.
 
-- `git log --author`: Filtra los commits realizados por un autor en específico.
+- `git log --author="nombre"`: Filtra los commits realizados por un autor en específico.
 
-- `git log --grep`: Busca commits donde el mensaje tenga cierta palabra.
+- `git log --grep="palabra"`: Busca commits donde el mensaje tenga cierta palabra.
 
 - `git log --since, --after y --before`: Permite filtrar commits según un rango de fechas.
 
@@ -22,7 +22,7 @@ Los comandos de visualización nos permiten consultar información del repositor
 
 - `git reflog`: Muestra un registro de los movimientos realizados por HEAD, permitiendo ver cambios recientes en las referencias locales.
 
-- `git show`: Muestra la información detallada de un commit en específico, incluyendo sus cambios.
+- `git show <hash>`: Muestra la información detallada de un commit en específico, incluyendo sus cambios.
 
 - `git diff`: Compara los cambios locales con la última versión guardada en el repositorio.
 
@@ -36,16 +36,38 @@ Los comandos de visualización nos permiten consultar información del repositor
 
 - `git diff --word-diff`: Muestra la diferencia a nivel de palabras dentro de la misma línea.
 
+- git bisect: Automatiza una búsqueda binaria para navegar rápido entre commits antiguos y encontrar el momento exacto en el que se introdujo un error.
+
+- git checkout <hash>: Te permite "viajar en el tiempo" a un commit pasado (dejando la cabeza desconectada o *detached HEAD) únicamente para observar el código.
+
 ## Ejemplos de uso
 
 ### 1. Revisar quién hizo los últimos cambios:
 
-Durante un TP, si queremos saber qué integrante realizó commit recientemente, y sus cambios, podemos ejecutar: `git log`.
+Durante un TP, si queremos saber qué integrante realizó commit recientemente, y sus cambios, podemos ejecutar: 
+
+```bash
+git log
+```
 
 ### 2. Revisar cambios antes de crear un commit:
 
-Después de editar un archivo se puede ver qué líneas fueron modificadas con: `git diff`.
+Después de editar un archivo se puede ver qué líneas fueron modificadas con:
+
+```bash
+git diff
+```
 
 ### 3. Buscar cuándo hubo un error:
 
-Si un archivo empezó a fallar y queremos ver cuándo se introdujo el cambio, podemos revisar el historial con `git log` y comparar versiones con `git diff <hash1> <hash2>`.
+Si un archivo empezó a fallar y queremos ver cuándo se introdujo el cambio, podemos revisar el historial con:
+
+```bash
+git log
+```
+
+y comparar versiones con:
+
+```bash
+git diff <hash1> <hash2>
+```
