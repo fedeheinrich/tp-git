@@ -40,12 +40,30 @@ Los comandos de visualización nos permiten consultar información del repositor
 
 ### 1. Revisar quién hizo los últimos cambios:
 
-Durante un TP, si queremos saber qué integrante realizó commit recientemente, y sus cambios, podemos ejecutar: `git log`.
+Durante un TP, si queremos saber qué integrante realizó commit recientemente, y sus cambios, podemos ejecutar: 
+
+```bash
+git log
+```
 
 ### 2. Revisar cambios antes de crear un commit:
 
-Después de editar un archivo se puede ver qué líneas fueron modificadas con: `git diff`.
+Después de editar un archivo se puede ver qué líneas fueron modificadas con:
+
+```bash
+git diff
+```
 
 ### 3. Buscar cuándo hubo un error:
 
-Si un archivo empezó a fallar y queremos ver cuándo se introdujo el cambio, podemos revisar el historial con `git log` y comparar versiones con `git diff <hash1> <hash2>`.
+Si un archivo empezó a fallar y queremos ver cuándo se introdujo el cambio, podemos revisar el historial con:
+
+```bash
+git log
+```
+
+y comparar versiones con:
+
+```bash
+git diff <hash1> <hash2>
+```
