@@ -11,3 +11,4 @@ Utilizó [Gemini](https://gemini.google.com/app) para recordar sintaxis de Markd
 Utilizó [Gemini](https://github.com/Oviedo-Matias) para consultar sintaxis de Markdown.
 
 ## [@jeremiasclaros](https://github.com/jeremiasclaros)
+Utilizó [ChatGPT](https://chatgpt.com/) para realizar correciones de ortografía. 
