@@ -1,6 +1,6 @@
-# Visualización
+# Historial
 
-Los comandos de visualización nos permiten consultar información del repositorio, revisar cambios y el estado de distintas versiones del proyecto sin modificarlo.
+Los comandos de historial nos permiten consultar información del repositorio, revisar cambios y el estado de distintas versiones del proyecto sin modificarlo.
 
 - `git log`: Muestra el historial completo de commits realizados en el repositorio.
 
@@ -36,9 +36,9 @@ Los comandos de visualización nos permiten consultar información del repositor
 
 - `git diff --word-diff`: Muestra la diferencia a nivel de palabras dentro de la misma línea.
 
-- git bisect: Automatiza una búsqueda binaria para navegar rápido entre commits antiguos y encontrar el momento exacto en el que se introdujo un error.
+- `git bisect`: Automatiza una búsqueda binaria para navegar rápido entre commits antiguos y encontrar el momento exacto en el que se introdujo un error.
 
-- git checkout <hash>: Te permite "viajar en el tiempo" a un commit pasado (dejando la cabeza desconectada o *detached HEAD) únicamente para observar el código.
+- `git checkout <hash>`: Te permite "viajar en el tiempo" a un commit pasado (dejando la cabeza desconectada o *detached HEAD) únicamente para observar el código.
 
 ## Ejemplos de uso
 
