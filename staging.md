@@ -1,6 +1,6 @@
 # Área de preparación (staging)
 
-El área de preparación funciona como una zona intermedia entre los archivos modificados y el commit.
+El área de preparación funciona como una zona intermedia entre los archivos modificados y el commit. Sirve para construir commits limpios y revisables: permite seleccionar, revisar y agrupar cambios antes de confirmarlos.
 
 - `git add <archivo>`: Agrega un archivo en específico al área de preparación.
 
