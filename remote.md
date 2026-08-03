@@ -60,3 +60,27 @@ Para ver los repositorios remotos con sus URLs, usas `git remote -v`:
 # Mostrar el nombre del repositorio remoto y su URL
 git remote -v
 ```
+
+## Eliminar una rama remota
+
+Para eliminar una rama que existe en el repositorio remoto (por ejemplo GitHub), usá el siguiente comando:
+
+```bash
+git push origin --delete feature/nombre-descriptivo
+```
+
+Buenas prácticas y precauciones:
+
+- Confirmá que la rama no contiene trabajo necesario o que sus cambios ya fueron integrados en la rama principal del equipo.
+- Después de borrar la rama remota, actualizá tus referencias locales con `git fetch --prune` o `git remote prune origin`.
+- Si también querés borrar la rama localmente, usá `git branch -d feature/nombre-descriptivo` (o `-D` para forzar).
+
+Ejemplo rápido:
+
+```bash
+# Borrar la rama remota
+git push origin --delete feature/Funcion_1
+
+# Limpiar referencias locales obsoletas
+git fetch --prune
+```

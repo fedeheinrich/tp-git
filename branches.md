@@ -56,8 +56,10 @@ O solamente crear la rama sin movernos de rama:
 git branch feature/Funcion_1
 ```
 
-### Quinto paso (Opcional): Ahora si se quiere borrar una rama específica Funcion_1 de forma segura, el comando a tener en cuenta es el siguiente:
+### Quinto paso (Opcional): Ahora si se quiere borrar una rama específica, por ejemplo: Funcion_1, el comando a utilizar es el siguiente:
 
 ```bash
 git branch -d feature/Funcion_1
 ```
+
+**Nota:** Para eliminar también la rama en el remoto, ver la subsección **Eliminar una rama remota** en [remote.md](remote.md#eliminar-una-rama-remota).
