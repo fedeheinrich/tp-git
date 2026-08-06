@@ -12,6 +12,7 @@
 - Comandos, explicaciones y ejemplos para ver y analizar el historial de git: [history](history.md)
 - Explicación de merge y rebase, comandos, conflictos y cómo resolverlos: [merge](merge.md)
 - Explicación del trabajo remoto en git, comandos y ejemplos de uso: [remote](remote.md)
+- Comando reset, parámetros, explicaciones y ejemplos de uso: [reset](reset.md)
 - Comando revert, parámetros, explicaciones y ejemplos de uso: [revert](revert.md)
 - Explicación del staging, comandos y ejemplos de uso: [staging](staging.md)
 - Comando status y explicación de su uso: [status](status.md)
